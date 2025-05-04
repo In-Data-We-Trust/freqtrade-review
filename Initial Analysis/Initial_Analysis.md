@@ -54,3 +54,13 @@ The bot execution logic section, contains the key functions to follow
 3. Create a bespoke strategy and trial run
 
 If I do the above, then I can execute it. It's about then finding a strategy that I can test, with suitable risk criteria for losses.
+
+#### What to do after?
+
+- Understand the popular indicator values and IF these can be used - https://www.freqtrade.io/en/stable/strategy-101/#populate-indicator-values
+
+
+
+WHAT LEFT FOR DOCUMENTATION - UNDERSTAND BASIC STRATEGY HERE - https://www.freqtrade.io/en/stable/strategy-101/#a-simple-strategy
+
+After the above, download and run the bot - nothing like doing to learn
