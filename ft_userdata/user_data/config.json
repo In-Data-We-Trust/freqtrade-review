@@ -1,0 +1,39 @@
+{
+  "max_open_trades": 5,
+  "stake_currency": "USDT",
+  "stake_amount": "unlimited",
+  "fiat_display_currency": "USD",
+  "dry_run": true,
+  "dry_run_wallet": 1000,
+  "timeframe": "1h",
+  "strategy": "SimpleDCA5ProfitStrategy",
+  "exchange": {
+    "name": "binance",
+    "key": "your_api_key",
+    "secret": "your_api_secret",
+    "ccxt_config": {},
+    "ccxt_async_config": {},
+    "pair_whitelist": [
+      "BTC/USDT",
+      "ETH/USDT"
+    ],
+    "pair_blacklist": [
+      ""]
+  },
+  "telegram": {
+    "enabled": false,
+    "token": "",
+    "chat_id": ""
+  },
+  "api_server": {
+    "enabled": true,
+    "listen_ip": "0.0.0.0",
+    "listen_port": 8080,
+    "verbosity": "info",
+    "enable_openapi": false,
+    "jwt_secret_key": "supersecretkey",
+    "CORS_origins": [],
+    "username": "",
+    "password": ""
+  }
+}

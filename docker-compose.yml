@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  freqtrade:
+    build: .
+    container_name: freqtrade
+    volumes:
+      - ./ft_userdata/user_data:/freqtrade/user_data
+    environment:
+      - FREQTRADE_CONFIG=/freqtrade/user_data/config.json
+    command: trade
+    restart: always
